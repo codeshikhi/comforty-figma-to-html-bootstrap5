@@ -1,0 +1,14 @@
+// base 
+@import './base/reset';
+@import './base/typography';
+
+// utils 
+@import './utils/variables';
+
+// components
+@import './components/buttons';
+@import './components/header';
+
+// pages
+@import './pages/home';
+

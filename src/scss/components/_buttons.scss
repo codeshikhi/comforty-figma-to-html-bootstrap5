@@ -1,0 +1,31 @@
+.icon-button {
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in-out;
+    &:hover {
+        background-color: $color;
+        color: white;
+    }
+}
+
+.button {
+    padding: 14px 24px;
+    background-color: $color;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: all .3s ease-in-out;
+    &:hover{
+        color: white;
+        background-color: $accent;
+    }
+    svg {
+        margin-left: 20px;
+    }
+}
