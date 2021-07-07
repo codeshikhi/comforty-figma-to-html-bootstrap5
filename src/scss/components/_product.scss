@@ -1,0 +1,95 @@
+.feature-products {
+  margin-top: 30px;
+}
+
+.product-item {
+  .image {
+    height: 312px;
+    width: 100%;
+    position: relative;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .label {
+      position: absolute;
+      left: 20px;
+      top: 20px;
+    }
+    .icon-button {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+  }
+  .content {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .info {
+      a {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 5px;
+        display: inline-block;
+        &:hover {
+          color: $color;
+        }
+      }
+      p {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 600;
+      }
+    }
+  }
+  &:hover {
+    .content .info a {
+        color: $color;
+    }
+  }
+}
+
+.label {
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: $color;
+  color: white;
+  display: inline-block;
+}
+
+.icon-button {
+  border-radius: 8px;
+  height: 44px;
+  width: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $lightShade;
+  color: $primary;
+  border: 0;
+  &:hover {
+    background-color: $color;
+    color: white;
+  }
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  h3 {
+    margin-bottom: 0;
+    font-size: 32px;
+    font-weight: 600;
+  }
+}
+
+.slider-arrow {
+  display: flex;
+  .icon-button:last-child {
+    margin-left: 15px;
+  }
+}
