@@ -1,0 +1,35 @@
+.top-categories {
+  margin-top: 80px;
+}
+
+.category-item {
+  height: 424px;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 30px;
+  .image img {
+    height: 424px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .content {
+    background-color: rgba(#000000, 0.7);
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    h3 {
+      font-size: 20px;
+      color: #fff;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+    small {
+      font-size: 14px;
+      color: #fff;
+    }
+  }
+}
